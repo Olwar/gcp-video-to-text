@@ -1,7 +1,7 @@
 # gcp-video-to-text
 Uploading a video and exporting the speech into a text file with Google's ML API and correcting the grammar with openAI api. 
 
-<img src="https://imgur.com/a/tFZxFL4" alt="flowchart of the project">
+<img src="https://i.imgur.com/rHmQXr1.png" alt="flowchart of the project">
 
 If you want to run this locally:
 1. Set Up a Google Cloud Account: https://console.cloud.google.com/freetrial
