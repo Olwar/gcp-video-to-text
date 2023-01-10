@@ -13,11 +13,13 @@ If you want to run this locally:
     Click the project selector again and select your new project.
     ```
 
-3. What you need on your local machine:\n
-    Google Cloud SDK i.e. gcloud command-line tool: https://cloud.google.com/sdk/docs/install \n
-    Python3 \n
-    OpenAI account and an API-key: https://beta.openai.com/account/api-keys \n
+3. What you need on your local machine:
+    ```
+    Google Cloud SDK i.e. gcloud command-line tool: https://cloud.google.com/sdk/docs/install
+    Python3
+    OpenAI account and an API-key: https://beta.openai.com/account/api-keys
         Store the api-key in to an environment variable: `export OPENAI_API_KEY="your-api-key"`
+    ```
 
 4. Copy the video you want to get speech out of into the root directory
 
