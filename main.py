@@ -1,8 +1,10 @@
 import os
 import openai
 
+# Set your API key in an environment variable called "OPENAI_API_KEY"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+# Sending prompt to openAI-API and returning response
 def openai_prompt(gpt_prompt):
   response = openai.Completion.create(
     engine="text-davinci-003",

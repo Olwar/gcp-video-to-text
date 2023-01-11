@@ -1,6 +1,5 @@
 #!/bin/bash
 #Configure gcloud to use your new Google Cloud project:
-
 gcloud init
 
 #Export an environment variable with your current Google Cloud project ID:
@@ -19,7 +18,8 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 
 #Create a Service Account and JSON key
-#In this section, we create a Service Account in your Google Cloud project and grant sufficient permissions to it so that it can use the AI service#You also download a JSON key for the Service Accoun#The JSON key is used by the Python utilities to authenticate with the Cloud services.
+#In this section, we create a Service Account in your Google Cloud project and grant sufficient permissions to it so that it can use the AI service
+#You also download a JSON key for the Service Accoun#The JSON key is used by the Python utilities to authenticate with the Cloud services.
 
 #Create a new Service Account:
 gcloud iam service-accounts create ml-dev --description="ML APIs developer access" --display-name="ML Developer Service Account"
